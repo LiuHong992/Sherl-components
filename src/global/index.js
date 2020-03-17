@@ -6,6 +6,7 @@ import phoneLogin from '../component/Phonelogin/phonelogin'
 import imagePre from '../component/Imagepre/Imagepre'
 import notifyIcon from '../component/Notifyicon/notifyicon'
 import tagSelector from '../component/Tagselector/tagselector'
+import selectTags from '../component/Selecttags/selecttags'
 import progressBar from '../component/Progressbar/progressbar'
 import lock from '../component/Lock/lock'
 import fullScreen from '../component/Fullscreen/fullscreen'
@@ -26,6 +27,7 @@ Vue.component('phone-login', phoneLogin)
 Vue.component('image-pre', imagePre)
 Vue.component('notify-icon', notifyIcon)
 Vue.component('tag-selector', tagSelector)
+Vue.component('select-tags', selectTags)
 Vue.component('progress-bar', progressBar)
 Vue.component('locks', lock)
 Vue.component('full-screen', fullScreen)

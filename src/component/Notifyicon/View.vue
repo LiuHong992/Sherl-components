@@ -24,6 +24,26 @@
         <notify-icon>6666</notify-icon>
       </div>
     </div>
+    <!-- 通知菜单 -->
+    <h2 class="m-t-20 m-b-10">通知菜单(用法同element-ui Popover组件)</h2>
+    <div class="notify-menu fl a-c">
+      <!-- 默认宽度为100,正上方弹出菜单 -->
+      <div class="menu-default fl m-r-20 a-c">
+        <h4>默认宽度为100,正上方弹出菜单</h4>
+        <notify-icon>
+          48
+          <template v-slot:content>这是一个自定义的菜单</template>
+        </notify-icon>
+      </div>
+      <!-- 默认宽度为100,正上方弹出菜单 -->
+      <div class="menu-setting fl m-r-20 a-c">
+        <h4>可以控制菜单的宽度和定位</h4>
+        <notify-icon :nwidth="300" placement="bottom">
+          648
+          <template v-slot:content>可以控制菜单的宽度和定位</template>
+        </notify-icon>
+      </div>
+    </div>
   </div>
 </template>
 
